@@ -11,7 +11,7 @@ public class UMLDiagramTool {
         UMLShape shape = shapeCollection.getShape(type);
         if (shape != null) {
             // TO DO: Fill in with relevant method call
-            UMLShape clonedShape;
+            UMLShape clonedShape = shape.clone();
             clonedShape.draw();
         } else {
             System.out.println("Shape not found: " + type);

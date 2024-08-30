@@ -20,6 +20,7 @@ public class Box implements UMLShape {
         this.id = idCount++;
     }
 
+    @Override
     public UMLShape clone() {
         return new Box(width, height, text);
     }

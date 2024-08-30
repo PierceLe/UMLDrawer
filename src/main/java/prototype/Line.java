@@ -45,4 +45,5 @@ class Line implements UMLShape {
     public void setEndArrow(String endArrow) {
         this.endArrow = endArrow;
     }
+
 }
